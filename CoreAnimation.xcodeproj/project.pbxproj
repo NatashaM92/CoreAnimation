@@ -14,6 +14,8 @@
 		5E1097D929742072009E4C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1097D829742072009E4C69 /* Assets.xcassets */; };
 		5E1097DC29742072009E4C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1097DA29742072009E4C69 /* LaunchScreen.storyboard */; };
 		5E1097E529742123009E4C69 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 5E1097E429742123009E4C69 /* SpringAnimation */; };
+		5E1097E72975AB1B009E4C69 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1097E62975AB1B009E4C69 /* AnimationModel.swift */; };
+		5E1097E92975BA96009E4C69 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1097E82975BA96009E4C69 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5E1097D829742072009E4C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E1097DB29742072009E4C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E1097DD29742072009E4C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1097E62975AB1B009E4C69 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		5E1097E82975BA96009E4C69 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				5E1097CF29742072009E4C69 /* AppDelegate.swift */,
 				5E1097D129742072009E4C69 /* SceneDelegate.swift */,
 				5E1097D329742072009E4C69 /* ViewController.swift */,
+				5E1097E62975AB1B009E4C69 /* AnimationModel.swift */,
+				5E1097E82975BA96009E4C69 /* DataManager.swift */,
 				5E1097D529742072009E4C69 /* Main.storyboard */,
 				5E1097D829742072009E4C69 /* Assets.xcassets */,
 				5E1097DA29742072009E4C69 /* LaunchScreen.storyboard */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1097E72975AB1B009E4C69 /* AnimationModel.swift in Sources */,
+				5E1097E92975BA96009E4C69 /* DataManager.swift in Sources */,
 				5E1097D429742072009E4C69 /* ViewController.swift in Sources */,
 				5E1097D029742072009E4C69 /* AppDelegate.swift in Sources */,
 				5E1097D229742072009E4C69 /* SceneDelegate.swift in Sources */,
