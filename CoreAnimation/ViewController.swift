@@ -72,14 +72,15 @@ class ViewController: UIViewController {
     
     private func randomAnimationPreset() -> String {
        let randomPreset = AnimationPreset.allCases.randomElement()?.rawValue
-       let name = randomPreset ?? ""
-        return name
+       let preset = randomPreset ?? ""
+        return preset
+        
     }
     
     private func randomAnimationPresentNext() -> String {
         let randomPresetNext = AnimationPreset.allCases.randomElement()?.rawValue
-        let nameNext = randomPresetNext ?? ""
-        return nameNext
+        let presetNext = randomPresetNext ?? ""
+        return presetNext
         
     }
     
